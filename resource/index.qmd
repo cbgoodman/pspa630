@@ -2,9 +2,33 @@
 title: "Helpful resources"
 ---
 
-## Around the web
-* [ICMA Finance & Budgeting Resources](https://icma.org/topic-search/finance-%26-budgeting?page=1&grid_enabled=1)
-* [Government Finance Officers Association](https://gfoa.org/)
-* [Illinois Government Finance Officers Association](https://www.igfoa.org/)
-* [IL Comptroller Annual Financial Report Search Form](https://illinoiscomptroller.gov/financial-data/local-government-division/local-government-data/searchform/?SearchType=AFRSearch)
-* [Census of Governments](https://www.census.gov/programs-surveys/cog.html)
+## Illinois Local Government Professional Associations
+
+* [Illinois City/County Management Association](http://www.ilcma.org/)
+* [Illinois Municipal League](http://www.iml.org/)
+* [Illinois Association of County Board Members](http://www.ilcounty.org/)
+* [Illinois Association of Park Districts](http://www.ilparks.org/)
+* [Illinois Association of School Boards](http://www.iasb.com/)
+* [Illinois Association of Chiefs of Police](http://www.ilchiefs.org/)
+* [Illinois Association of Fire Protection Districts](http://www.iafpd.org/)
+* [Illinois Association of Fire Chiefs](http://www.iafc.org/)
+
+## Northern Illinois Regional Bodies
+
+* [Barrington Area Council of Governments](http://www.bacog.org/)
+* [DuPage Mayors & Managers Conference](https://dmmc-cog.org/)
+* [Kane/Kendall Council of Mayors](http://www.kkcom.org/)
+* [Lake County Municipal League](http://www.lakecountyleague.org/)
+* [McHenry County Council of Mayors](http://www.mchenrycountycom.org/)
+* [McHenry County Council of Governments](http://www.mchenrycountycog.org/)
+* [Metro West Council of Government](http://www.metrowestcog.org/)
+* [Northwest Municipal Conference](http://www.nwmc-cog.org/)
+* [South Suburban Mayors and Managers Association](http://www.ssmma.org/)
+* [Southwest Conference of Mayors](http://www.swmayors.com/)
+* [West Central Municipal Conference](http://www.westcook.org/)
+* [Will County Governmental League](http://www.wcgl.org/)
+
+## Planning & Transportation
+
+* [Chicago Metropolitan Agency for Planning](http://www.cmap.illinois.gov/)
+* [Metropolitan Planning Council](http://www.metroplanning.org/)

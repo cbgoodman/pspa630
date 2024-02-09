@@ -23,15 +23,15 @@ Think: What would I like a decisionmaker to know if they only read this summary?
 
 ##### Recommendation for Action
 
-Make a recommendation or recommendations. This will be no longer than one brief paragraph.
+Make a recommendation or recommendations. This will be no longer than one to three sentences.
 
 ##### Background
 
-State the key background points that are relevant to your analysis. Keep this brief (one paragraph). Weave the key story elements into the analysis as much as possible.
+Provide background information necessary for the reader of the report to understand context and the issues addressed.  Limit background to one or two paragraphs.
 
 ##### Analysis
 
-This is the heart of your paper. Address the questions in the case assignment. State an answer to a problem in the case, and then support your statement with a cogent, concise argument. Be sure to support your argument with relevant literature from the course reading list. Provide citations to relevant literature in footnotes in Chicago or APA style.
+The discussion section is the main body of the report.  Present key ideas in logical order.  Describe options; consider advantages and disadvantages, cost and benefits; present arguments in a fair and balanced manner. Be sure to support your argument with relevant literature from the course reading list. Provide citations to relevant literature in footnotes in Chicago or APA style.
 
 ##### Conclusion
 

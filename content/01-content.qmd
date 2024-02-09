@@ -15,3 +15,9 @@ date: 2024-03-18
 - Bowman, Ann O’M. “The State-Local Government(s) Conundrum: Power and Design.” [@bowman2017]
 - Goodman, Christopher B. “Local Government Fragmentation: What Do We Know?” [@goodman2019]
 - Richardson, Jesse J. “Dillon’s Rule Is from Mars, Home Rule Is from Venus: Local Government Autonomy and the Rules of Statutory Construction.” [@richardson2011]
+
+*Home rule in Illinois*
+
+-   Banovetz, James M. “The Status of Illinois Home Rule, Part I: Home Rule Cities and the Voters.” [@banovetz2002]
+-   Banovetz, James M., and Thomas W. Kelty. “The Status of Illinois Home Rule, Part II: Home Rule and Taxes.” [@banovetz2003a]
+-   Banovetz, James M., and Thomas W. Kelty. “The Status of Illinois Home Rule, Part III: Do Home Rule Communities Levy More Property Taxes?” [@banovetz2003b]

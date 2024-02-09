@@ -89,7 +89,7 @@ website:
           contents:
             - resource/index.qmd
             - resource/memos.qmd
-            - resource/revenue-analysis.qmd
+            - resource/building-municipal-capacity.qmd
 
   page-footer: 
     left: |
