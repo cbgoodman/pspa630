@@ -1,0 +1,196 @@
+---
+title: Syllabus
+---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+library(tibble)
+library(pander)
+```
+
+:::: {.grid .course-details .course-details-smaller}
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+### Instructor
+
+- [{{< fa user >}}]{.fa-li} [{{< var instructor.name >}}]({{< var instructor.url >}})
+- [{{< fa university >}}]{.fa-li} {{< var instructor.office >}}
+- [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
+- [{{< iconify ph butterfly-bold size=1.2em title='Bluesky' >}}]{.fa-li} [Bluesky]({{< var instructor.bluesky >}})
+- [{{< iconify bi mastodon size=1.1em title='Mastodon' >}}]{.fa-li} [Mastodon]({{< var instructor.mastodon >}})
+
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+### Course details
+
+<!--# - [{{< fa calendar >}}]{.fa-li} {{< var course.days >}} -->
+- [{{< fa calendar-alt >}}]{.fa-li} {{< var course.dates >}}
+<!--# - [{{< fa clock >}}]{.fa-li} {{< var course.time >}} -->
+- [{{< fa location-dot >}}]{.fa-li} {{< var course.location >}}
+:::
+
+::: {.g-col-12 .g-col-md-4 .contact-policy}
+### Contacting me
+
+- [{{< fa calendar-check >}}]{.fa-li} [Schedule an appointment]({{< var instructor.appointment_url >}})
+:::
+
+::::
+
+## Course Description
+
+> *Discussion of the operational and administrative aspects of local and metropolitan government in the United States, including design and structure, municipal law, finance, administrative organization, local political systems, and intergovernmental relations. --- NIU Graduate Catalog*
+
+The course asks students to study and apply the broad legal, political, and administrative attributes of local government in the U.S. The course surveys the evolution of local government, forms of government, municipal services, local politics, local elections, reform movements, urban bureaucracy and organizations, urban policy, and the intergovernmental laws that empower local governments. 
+
+Managers are asked to step into a highly complex network of interconnected systems that form a city or metropolitan region. The better a manager understands those systems and the limitations or opportunities they place on their city, the better a manager can do their job. This course is not about management per se; rather, it is about the systems that a manager operates within.
+
+## Course Objectives
+
+-   Explain and explore the history of towns, cities and municipalities, and, the development of forms of local government including council-manager government and other legal platforms for local governance.
+-   Understand the legal relationships between state and local governments with an emphasis on state-local relations in Illinois.
+-   Describe and analyze the relationship between politics and administration in the local government setting and apply relevant theoretical frameworks to assess current problems in local government.
+-   Describe, analyze, and offer recommendations on local government administration, service delivery and collaboration.
+-   Assess trends in metropolitan policy and governance through the lens of Chicago’s metropolitan region.
+-   Describe and analyze mechanisms for democratic interactions, anchorage and civic engagement in local government.
+
+## Textbooks
+
+### Required
+
+There is one required text for this course.
+
+-   Miller, David Y. and Raymond Cox. 2014. *Governing the Metropolis: America's New Frontier*. New York, NY: Routledge.
+
+Additional readings will be distributed via [Blackboard](https://webcourses.niu.edu).
+
+## Assignments
+
+```{r assignments-grades, include=FALSE}
+assignments <- tribble(
+  ~Points,  ~Assignment,
+  7 * 10  , "Discussion Boards (7 × 10)",
+  7 * 10  , "Weekly Check-ins (7 × 10)",
+  100     , "Case Analysis 1: Adoption of Home Rule",
+  100     , "Case Analysis 2: Responding to Preemption",
+  100     , "Case Analysis 3: To Cooperate or Not",
+  200     , "Building Municipal Capacity Paper",
+  50      , "Building Municipal Capacity Presentation"
+) %>%
+  mutate(Percent = Points / sum(Points),
+         Percent = scales::label_percent(accuracy = 1)(Percent))
+```
+
+```{r show-assignments-table, echo=FALSE, results="asis", warning=FALSE}
+assignments_total <- tibble(Assignment = "Total",
+                            Points = sum(assignments$Points),
+                            Percent = NA)
+
+bind_rows(assignments, assignments_total) %>% 
+  select(Assignment, Points, Percent) %>% 
+  pandoc.table(justify = "lcc", missing = "—", digits = c(1, 3))
+```
+
+### Participation
+
+#### Discussion boards
+
+Each week, you will be presented with an issue relevant to that week's topic to discuss. These discussion are meant to mirror in-class discussion of the topic.
+
+#### Weekly Check-in
+
+Every week, after you finish working through the content, I want to hear about what you learned and what questions you still have. This should be ≈150 words. That’s fairly short: there are ≈250 words on a typical double-spaced page in Microsoft Word (500 when single-spaced).
+
+I will grade these check-ins using a check system:
+
+-   ✓+: (11.5 points in gradebook) Response shows phenomenal thought and engagement with the course content. I will not assign these often.
+-   ✓: (10 points in gradebook) Response is thoughtful, well-written, and shows engagement with the course content. This is the expected level of performance.
+-   ✓-: (5 points in gradebook) Response is hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will hopefully not assign these often.
+
+Notice that is essentially a pass/fail or completion-based system. I’m not grading your writing ability, I’m not counting the exact number of words you’re writing, and I’m not looking for encyclopedic citations of every single reading to prove that you did indeed read everything. I’m looking for thoughtful engagement, that’s all. Do good work and you’ll get a ✓.
+
+### Case Analyses
+
+During the class, you will completely three (3) staff memos about different topics.
+
+#### Case #1: Adoption of Home Rule
+
+You will prepare a staff memo about the process and pros and cons of adopting home rule. The purpose of the memo is to inform the Board of Trustees about the procedure necessary to adopt and the powers gained. This is an informational memo.
+
+#### Case #2: Responding to Preemption
+
+You will prepare a staff memo recommending a course of action to the city manager and Board of Trustees on how to respond to the state prohibiting action in a certain policy area (that is demanded by your residents).
+
+#### Case #3: To Cooperate or Not
+
+You will prepare a staff member recommending whether to cooperate with a neighboring municipality on a regional project.
+
+### Building Municipal Capacity Project
+
+In groups, students will act as external consultants employed by a Council of Government (COG). The COG is concerned about their member organization's ability to implement increasingly complex policy solutions to networked problems. The COG wants your group to develop strategies to increase municipal capacity.
+
+#### Paper
+
+Your group will develop a white paper recommending strategies to increase municipal capacity.
+
+*Project definition.* Groups will prepare a memo defining "municipal capacity" and how to measure it. The purpose of this memo is to provide the scope of the recommendations in the full project.
+
+*Strategy white paper.* Consistent with your group's definition of municipal capacity, your group will develop a white paper proposing strategies to increase municipal capacity. The white paper will include several strategies and your groups will rank these strategies in order of their impact and/or feasibility.
+
+#### Presentation
+
+Groups will prepare a 10-12 minute presentation describing strategies to increase municipal capacity.
+
+## Course Policies
+
+### Communications
+
+Course announcements will be made via email so it is imperative that you check your e-mail daily. "I didn't get the email" is never a valid excuse. The most effect method of communicating with me is using email; however, you are also encouraged to [schedule a meeting](https://outlook.office365.com/owa/calendar/PSPA611@mail.niu.edu/bookings/) at my office or a phone call.
+
+### Late Assignments
+
+All course assignments are due at 11:59pm unless otherwise noted. Course policy is that late work will not be accepted. That said, you should always turn in your work, even if late. Generally, you will receive at least partial credit for late work, depending on the assignment. This is better than receiving a '0' on the assignment. All assignments are due at the beginning of class on the assigned due date, unless otherwise specified. For students who contact the instructor before the assignment deadline regarding extenuating circumstances constituting an emergency, the instructor will consider those circumstances and evaluate whether an accommodation can and should be made based on equity, fairness, and compassion. However, an accommodation should not be considered a matter of right in such circumstances.
+
+### Lauren's Promise
+
+I will listen and believe you if someone is threatening you. Lauren McCluskey, a 21-year-old honors student athlete, [was murdered on October 22, 2018 by a man she briefly dated on the University of Utah campus](https://www.sltrib.com/opinion/commentary/2019/02/10/commentary-failing-lauren/). We must all take action to ensure that this never happens again.
+
+If you are in immediate danger, call 911.
+
+If you are experiencing sexual assault, domestic violence, or stalking, please report it to me and I will connect you to resources or call [NIU's Counseling and Consultation Services](https://www.niu.edu/counseling/) (815-753-1206).
+
+Any form of sexual harassment or violence will not be excused or tolerated at Northern. NIU has instituted procedures to respond to violations of these laws and standards, programs aimed at the prevention of such conduct, and intervention on behalf of the victims. NIU Police officers will treat victims of sexual assault, domestic violence, and stalking with respect and dignity. Advocates on campus and in the community can help with victims' physical and emotional health, reporting options, and academic concerns.
+
+### Accessibility
+
+If you need an accommodation for this class, please contact the Disability Resource Center as soon as possible. The DRC coordinates accommodations for students with disabilities. It is located in the Campus Life Building, Suite 180, and can be reached at 815-753-1303 or [drc\@niu.edu](mailto:drc@niu.edu).
+
+Also, please contact me privately as soon as possible so we can discuss your accommodations. Please note that you will not be required to disclose your disability, only your accommodations. The sooner you let me know your needs, the sooner I can assist you in achieving your learning goals in this course.
+
+### Name and Pronoun Statement
+
+Class rosters and University data systems are provided to faculty with the student's legal name and legal gender marker. As an NIU student, you are able to change how your preferred/proper name shows up on class rosters. This option is helpful for various student populations, including but not limited to: students who abbreviate their first name; students who use their middle name; international students; and transgender students. As a faculty member, I am committed to using your proper name and pronouns. We will take time during our first class together to do introductions, at which point you can share with all members of our learning community what name and pronouns you use, as you are comfortable. Additionally, if these change at any point during the semester, please let me know and we can develop a plan to share this information with others in a way that is safe for you.
+
+Should you want to update your preferred/proper name, you can do so by looking at the following guidelines and frequently asked questions:
+
+-   <https://www.niu.edu/regrec/preferred_proper_name/index.shtml>
+-   <https://www.niu.edu/regrec/preferred_proper_name/preferrednamefaq.shtml>
+
+### Academic Integrity
+
+The following statement is from the NIU 2017-18 Graduate Catalog:
+
+"Good academic work must be based on honesty. The attempt of any student to present as his or her own work that which he or she has not produced is regarded by the faculty and administration as a serious offense. Students are considered to have cheated, for example, if they copy the work of another or use unauthorized notes or other aids during an examination or turn in as their own a paper or an assignment written, in whole or in part, by someone else. Students are guilty of plagiarism, intentional or not, if they copy material from books, magazines, or other sources without identifying and acknowledging those sources or if they paraphrase ideas from such sources without acknowledging them. Students guilty of, or assisting others in, either cheating or plagiarism on an assignment, quiz, or examination may receive a grade of F for the course involved and may be suspended or dismissed from the university.[^1]
+
+[^1]: <https://catalog.niu.edu/content.php?catoid=44&navoid=2110&hl=%22plagiarism%22&returnto=search#acad_inte>
+
+The university has adopted additional policies and procedures for dealing with research misconduct among its students, faculty, and staff. The guidelines, entitled Research Integrity at Northern Illinois University, are available in department offices, in the office of the dean of the Graduate School, and online at [www.niu.edu/provost/policies/appm/I2.shtml](www.niu.edu/provost/policies/appm/I2.shtml), and pertain to the intentional commission of any of the following acts: falsification of data, improper assignment of authorship, claiming another person's work as one's own, unprofessional manipulation of experiments or of research procedures, misappropriation of research funds.
+
+If a graduate student fails to maintain the standards of academic or professional integrity expected in his or her discipline or program, the student's admission to the program may be terminated on recommendation of the student's major department. A statement on students' rights to the products of research is available in department offices, in the office of the dean of the Graduate School, and online at [www.niu.edu/provost/policies/appm/I11.shtml](www.niu.edu/provost/policies/appm/I11.shtml)."
+
+#### Ethics
+
+In case it is not yet crystal clear, there is zero tolerance for plagiarism in this course, this program and this university. Anyone who violates the ethical imperative to cite the work of others that is used in writing course papers is subject to an F for the course and possible dismissal from the university. If in doubt, cite the source, whether a quotation or a paraphrasing of someone else's work. I am happy to provide advice on how to cite works in specific situations. Use the Turabian style manual for all paper citations.
+
+The English Department's statement on Plagiarism is direct and to the point: [www.engl.niu.edu/composition/guidelines/plag.shtml](www.engl.niu.edu/composition/guidelines/plag.shtml). I recommend you take the online tutorial available from the NIU website to be sure you understand the rules and principles [writingtutorial.niu.edu/writingtutorial/style/plagiarism01.html](writingtutorial.niu.edu/writingtutorial/style/plagiarism01.html).

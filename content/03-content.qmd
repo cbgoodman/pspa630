@@ -1,0 +1,17 @@
+---
+title: "Metropolitan & regional governance"
+date: 2024-04-01
+---
+
+## Topics
+
+-   Regionalism, broadly
+-   Councils of Governments (COGs)/Metropolitan Planning Organizations (MPOs)
+-   Regional Intergovernmental Organizations (RIGOs)
+-   Informal regionalism
+
+## Readings
+
+- Chapters 6-10 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]
+- Howell-Moroney, Michael. “The Tiebout Hypothesis 50 Years Later: Lessons and Lingering Challenges for Metropolitan Governance in the 21st Century.” [@howell-moroney2008]
+- Rickabaugh, Jay. “Regionalism with and Without Metropolitanism: Governance Structures of Rural and Non-Rural Regional Intergovernmental Organizations.” [@rickabaugh2021]

@@ -1,0 +1,29 @@
+---
+title: Schedule
+page-layout: full
+tbl-colwidths: [10,40,7.5,7.5]
+---
+
+This page contains an outline of the topics, content, and assignments for the semester.
+Note that this schedule will be updated as the semester progresses, with all changes documented here.
+
+::: column-page-inset
+| **Date** | **Topic** | **Content** | **Assignment** |
+|--------|--------|:------:|:------:|
+| March 18    | **The local government landscape**          | [{{< fa book-open-reader >}}](/content/01-content.qmd) | |
+| March 25    | **Form & structure of local government**    | [{{< fa book-open-reader >}}](/content/02-content.qmd) | |
+| March 31    | Building Municipal Capacity project definition memo (submit by 11:59 PM)             | | [{{< fa pen-ruler >}}](assignment/building-municipal-capacity.qmd) |
+| April 1     | **Metropolitan & regional governance**      | [{{< fa book-open-reader >}}](/content/03-content.qmd) | |
+| April 7     | Case 1 Due (submit by 11:59 PM)             | | [{{< fa pen-ruler >}}](assignment/01-memo.qmd) |
+| April 8     | **State-local intergovernmental relations** | [{{< fa book-open-reader >}}](/content/04-content.qmd) | |
+| April 15    | **External influences on local government** | [{{< fa book-open-reader >}}](/content/05-content.qmd) | |
+| April 21    | Case 2 Due (submit by 11:59 PM)             | | [{{< fa pen-ruler >}}](assignment/02-memo.qmd) |
+| April 22    | **Metropolitan governance & service delivery approaches** | [{{< fa book-open-reader >}}](/content/06-content.qmd) | |
+| April 29    | **Community governance at a micro scale**   | [{{< fa book-open-reader >}}](/content/07-content.qmd) | |
+| May 5       | Case 3 Due (submit by 11:59 PM)             | | [{{< fa pen-ruler >}}](assignment/03-memo.qmd) | 
+| May 6       | **Putting it all together**                 | [{{< fa book-open-reader >}}](/content/08-content.qmd) | |
+| May 7       | Building Municipal Capacity presentation due (submit by 5:00 PM) | | [{{< fa pen-ruler >}}](assignment/building-municipal-capacity.qmd#presentation) |
+| May 10      | Building Municipal Capacity white paper due (submit by 11:59 PM)   | | [{{< fa pen-ruler >}}](assignment/building-municipal-capacity.qmd) |
+:::
+
+

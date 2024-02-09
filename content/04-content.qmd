@@ -1,0 +1,18 @@
+---
+title: "State-local intergovernmental relations"
+date: 2024-04-08
+---
+
+## Topics
+
+-   State-local intergovernmental relations
+-   Intergovernmetnal conflict
+-   Unfunded mandates
+-   Preemption
+
+## Readings
+
+- Chapters 3 and 11 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]
+- Goodman, Christopher B., Megan E. Hatch, and Bruce D. McDonald. “State Preemption of Local Laws: Origins and Modern Trends.” [@goodman2021]
+- Hicks, William D., *et al* “Home Rule Be Damned: Exploring Policy Conflicts Between the Statehouse and City Hall.” [@hicks2018]
+- Einstein, Katherine Levine, and David M. Glick. “Cities in American Federalism: Evidence on State-Local Government Conflict from a Survey of Mayors.” [@einstein2017]

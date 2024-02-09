@@ -1,0 +1,12 @@
+---
+title: "Putting it all together"
+date: 2024-05-06
+---
+
+## Topics
+
+-   Where are cities and metropolitan areas headed?
+
+## Readings
+
+- Chapter 12 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]

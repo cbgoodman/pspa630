@@ -1,0 +1,18 @@
+---
+title: "External influences on local government"
+date: 2024-04-15
+---
+
+## Topics
+
+-   Elections; urban sprawl
+-   Urban sprawl
+-   Population growth
+-   Climate change/sustainability
+
+## Readings
+
+- Warshaw, Christopher. “Local Elections and Representation in the United States.” [@warshaw2019]
+- Nechyba, Thomas J., and Randall P. Walsh. “Urban Sprawl.” [@nechyba2004]
+- Galster, George. “Why Shrinking Cities Are Not Mirror Images of Growing Cities: A Research Agenda of Six Testable Propositions.” [@galster2019]
+- Deslatte, Aaron, Michael D. Siciliano, and Rachel M. Krause. “Local Government Managers Are on the Frontlines of Climate Change: Are They Ready?” [@deslatte2023]

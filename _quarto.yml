@@ -1,0 +1,110 @@
+project:
+  type: website
+  
+  resources:
+    - "files/**"
+
+  # Preview settings
+  preview:
+    port: 4444
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: auto
+
+bibliography: files/bib/references.bib
+csl: files/bib/chicago-author-date.csl
+
+website:
+  title: "Local & Metropolitan Government"
+  description: "Discussion of the operational and administrative aspects of local and metropolitan government in the United States, including design and structure, municipal law, finance, administrative organization, local political systems, and intergovernmental relations."
+  favicon: "files/favicon.ico"
+
+  page-navigation: true
+ 
+  twitter-card:
+    creator: "@cbgoodman"
+    site: "@cbgoodman"
+  
+  open-graph:
+    locale: en_US
+
+  navbar:
+    pinned: true
+    background: "#ffffff"
+    right:
+      - syllabus.qmd
+      - schedule.qmd
+      - text: "Content"
+        file: content/index.qmd
+      - text: "Assignments"
+        file: assignment/index.qmd
+      - text: "Resources"
+        file: resource/index.qmd
+  sidebar:
+    - title: "Content"
+      style: "docked"
+      search: false
+      contents:
+        - section: "Overview"
+          contents:
+            - content/index.qmd
+        - section: "Course content"
+          contents:
+            - text: "1: The local government landscape"
+              file: content/01-content.qmd
+            - text: "2: Form & structure of local government"
+              file: content/02-content.qmd
+            - text: "3: Metropolitan & regional governance"
+              file: content/03-content.qmd
+            - text: "4: State-local intergovernmental relations"
+              file: content/04-content.qmd
+            - text: "5: External influences on local government"
+              file: content/05-content.qmd
+            - text: "6: Metropolitan governance & service delivery approaches"
+              file: content/06-content.qmd
+            - text: "7: Community governance at a micro scale"
+              file: content/07-content.qmd
+            - text: "8: Putting it all together"
+              file: content/08-content.qmd
+    - title: "Assignments"
+      contents:
+        - section: "Overview"
+          contents:
+            - assignment/index.qmd
+        - section: "Other projects"
+          contents:
+            - assignment/building-municipal-capacity.qmd
+            - assignment/weekly-check-in.qmd
+        - section: "Memos"
+          contents:
+            - assignment/01-memo.qmd
+            - assignment/02-memo.qmd
+            - assignment/03-memo.qmd
+    - title: "Resources"
+      contents:
+        - section: "Resources"
+          contents:
+            - resource/index.qmd
+            - resource/memos.qmd
+            - resource/revenue-analysis.qmd
+
+  page-footer: 
+    left: |
+      <span class="faux-block"> {{< iconify fa6-brands creative-commons title='Creative Commons' >}} {{< var course.copyright_year >}} Christopher B. Goodman</span>
+      <span class="faux-block">All content licensed under<br>[ {{< iconify fa6-brands creative-commons title='Creative Commons' >}} {{< iconify fa6-brands creative-commons-by title='Creative Commons BY' >}} {{< iconify fa6-brands creative-commons-sa title='Creative Commons SA' >}} Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)</span>      
+    center: |
+      <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+    right: |
+      <span class="faux-block">Made with [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">[View the source at {{< iconify bi github size=1.1em title='GitHub' >}} GitHub]({{< var course.github >}})</span>
+  
+format:
+  html:
+    theme:
+      - flatly
+      - html/custom.scss
+    toc: true
+    highlight-style: monokai

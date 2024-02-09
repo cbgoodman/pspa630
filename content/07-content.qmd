@@ -1,0 +1,18 @@
+---
+title: "Community governance at a micro scale"
+date: 2024-04-29
+---
+
+## Topics
+
+-   Local government consolidation
+-   Public participation
+-   Appointed volunteers in local government
+-   Homeowners associations
+
+## Readings
+
+- Leland, Suzanne, and Kurt Thurmaier. “Political and Functional Local Government Consolidation: The Challenges for Core Public Administration Values and Regional Reform.” [@leland2014]
+- Einstein, Katherine Levine, Maxwell Palmer, and David M. Glick. “Who Participates in Local Government? Evidence from Meeting Minutes.” [@einstein2019]
+- Dougherty, George W., and Jennifer Easton. “Appointed Public Volunteer Boards: Exploring the Basics of Citizen Participation Through Boards and Commissions.” [@dougherty2011]
+- McCabe, Barbara Coyle. “Homeowners Associations as Private Governments: What We Know, What We Don’t Know, and Why It Matters.” [@mccabe2011]

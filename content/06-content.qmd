@@ -1,0 +1,16 @@
+---
+title: "Metropolitan governance & service delivery approaches"
+date: 2024-04-22
+---
+
+## Topics
+
+-   Contracting out; shared services; collaboration
+-   Shared services
+-   Collaboration
+
+## Readings
+
+- Bel, Germà, and Mildred E. Warner. “Inter-Municipal Cooperation and Costs: Expectations and Evidence.” [@bel2015]
+- Aldag, Austin M., and Mildred Warner. “Cooperation, Not Cost Savings: Explaining Duration of Shared Service Agreements.” [@aldag2018]
+- Kim, Serena Y., *et al*. “Updating the Institutional Collective Action Framework.” [@kim2022]

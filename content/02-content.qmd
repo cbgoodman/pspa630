@@ -1,0 +1,16 @@
+---
+title: "Form & structure of local government"
+date: 2024-03-25
+---
+
+## Topics
+
+-   Local government forms
+-   Service delivery requirements
+-   Linkages to performance outcomes
+
+## Readings
+
+- Chapter 4 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]
+- Benton, J. Edwin. “County Service Delivery: Does Government Structure Matter?” [@benton2002]
+- Benton, J. Edwin, *et al* “Service Challenges and Governance Issues Confronting American Counties in the 21st Century: An Overview.” [@benton2008]
