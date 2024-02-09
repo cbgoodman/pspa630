@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: a785996c-f52e-407f-a202-90fe8efc2560
+      url: 'https://clinquant-cobbler-3629ee.netlify.app'
