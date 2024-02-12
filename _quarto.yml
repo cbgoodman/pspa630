@@ -31,6 +31,8 @@ website:
   open-graph:
     locale: en_US
 
+  google-analytics: "G-XLV2PP6KB4"
+
   navbar:
     pinned: true
     background: "#ffffff"
