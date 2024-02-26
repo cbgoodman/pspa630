@@ -5,7 +5,7 @@ date: 2024-04-22
 
 ## Topics
 
--   Contracting out; shared services; collaboration
+-   Contracting out
 -   Shared services
 -   Collaboration
 
