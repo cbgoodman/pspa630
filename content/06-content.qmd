@@ -11,6 +11,8 @@ date: 2024-04-22
 
 ## Readings
 
-- Bel, Germà, and Mildred E. Warner. “Inter-Municipal Cooperation and Costs: Expectations and Evidence.” [@bel2015]
-- Aldag, Austin M., and Mildred Warner. “Cooperation, Not Cost Savings: Explaining Duration of Shared Service Agreements.” [@aldag2018]
-- Kim, Serena Y., *et al*. “Updating the Institutional Collective Action Framework.” [@kim2022]
+-   Bel, Germà, and Mildred E. Warner. “Inter-Municipal Cooperation and Costs: Expectations and Evidence.” [@bel2015]
+-   Warner, Mildred. “Municipal Size, Resources, and Efficiency: Theoretical Bases for Shared Services and Consolidation.” [@warner2015]
+-   Aldag, Austin M., and Mildred Warner. “Cooperation, Not Cost Savings: Explaining Duration of Shared Service Agreements.” [@aldag2018]
+-   Bel, Germà, and Marianna Sebő. “Does Inter-Municipal Cooperation Really Reduce Delivery Costs? An Empirical Evaluation of the Role of Scale Economies, Transaction Costs, and Governance Arrangements.” [@bel2021]
+-   Kim, Serena Y., *et al*. “Updating the Institutional Collective Action Framework.” [@kim2022]
