@@ -6,3 +6,4 @@
 /blog/.DS_Store
 /html/.DS_Store
 /research/.DS_Store
+**/*.quarto_ipynb

@@ -1,6 +1,6 @@
 ---
 title: "Putting it all together"
-date: 2024-05-06
+date: 2026-12-08
 ---
 
 ## Topics

@@ -10,21 +10,21 @@ instructor:
   mastodon: "https://sciences.social/@cbgoodman"
   bluesky: "https://bsky.app/profile/cbgoodman.bsky.social"
   github: cbgoodman
-  office: "204 IASBO"
+  office: "Monat Hall 204"
   contact_policy: >-
     E-mail is the best ways to get in contact with me. I will try to respond to all course-related e-mails within 24 hours, but also remember that life can be busy and chaotic for everyone, so if I don't respond right away, don't worry!
   appointment_url: https://outlook.office365.com/owa/calendar/PSPA611@mail.niu.edu/bookings/
 
 course:
   number: "PSPA 630"
-  semester: "Spring 2024"
-  days: "Online"
-  time: "5:00-10:00 PM"
+  semester: "Fall 2026"
+  days: "Synchronous Online"
+  time: "6:30-9:00 PM"
   location: "Online"
-  dates: "March 18-May 10, 2024"
+  dates: "October 20-December 8, 2026"
   github: "https://www.github.com/cbgoodman/pspa630"
   url: "https://pspa630.cgoodman.com"
-  copyright_year: "2024"
+  copyright_year: "2026"
 
 university:
   name: Northern Illinois University
@@ -33,3 +33,22 @@ university:
 school:
   name: School of Public & Global Affairs
   url: "https://spga.niu.edu/"
+
+duedates:
+  memo1: "November 8"        # End of Week 3
+  memo2: "November 22"       # End of Week 5
+  memo3: "December 6"          # End of Week 7
+  paper-memo: "November 1"  # End of Week 2
+  paper: "December 11"         # Friday of Week 8
+  presentation: "December 9"   # Week 8, Tuesday
+  duetime: "11:59 PM"
+
+classdates:
+  week01: "October 20"
+  week02: "October 27"
+  week03: "November 3"
+  week04: "November 10"
+  week05: "November 17"
+  week06: "November 24"
+  week07: "December 1"
+  week08: "December 8"

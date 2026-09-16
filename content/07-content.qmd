@@ -1,6 +1,6 @@
 ---
 title: "Community governance at a micro scale"
-date: 2024-04-29
+date: 2026-12-01
 ---
 
 ## Topics
