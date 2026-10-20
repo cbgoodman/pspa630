@@ -1,0 +1,17 @@
+{
+  "hash": "d2cff1cc356a457b06d06022d3e91f5e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n::: {.cell}\n::: {.cell-output-display}\n---\ntitle: Form & structure of local government\ndate: October 27, 2026\n---\n\n:::\n:::\n\n\n## Topics\n\n-   Local government forms\n-   Service delivery requirements\n-   Linkages to performance outcomes\n\n## Readings\n\n-   Chapter 4 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]\n-   Benton, J. Edwin. “County Service Delivery: Does Government Structure Matter?” [@benton2002]\n-   Benton, J. Edwin, *et al* “Service Challenges and Governance Issues Confronting American Counties in the 21st Century: An Overview.” [@benton2008]\n-   Frederickson, H. George, Gary Alan Johnson, and Curtis Wood. “The Changing Structure of American Cities: A Study of the Diffusion of Innovation.” [@frederickson2004]\n-   Civic Federation. 2021. [An Inventory of Local Governments in Illinois](https://www.civicfed.org/sites/default/files/inventory_of_local_governments_report__0.pdf).",
+    "supporting": [
+      "02-content_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

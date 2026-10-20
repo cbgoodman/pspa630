@@ -1,7 +1,27 @@
----
-title: The local government landscape
-date: 2026-10-20
----
+
+```{r}
+#| label: metadata-block
+#| echo: false
+#| include: true
+#| error: false
+schedule <- readr::read_csv("../files/schedule.csv", show_col_types = F) |>
+  dplyr::filter(module_num == "01")
+
+quarto::write_yaml_metadata_block(
+  title = schedule$module_title,
+  date = format(schedule$module_date, "%B %d, %Y")
+)
+```
+
+## Module overview
+This module sets the stage for the rest of the course. We will cover the various theoretical perspectives on local governments--their purposes, who they are for, and who controls them. The module covers home rule, the four aspects of local government autonomy, and annexation.
+
+## Learning objectives
+By the end of this module, you will:
+
+-   Understand the various theoretical perspectives on local government
+-   Describe the the features of home rule in general and in Illinois
+-   Discuss the aspects of local government autonomy
 
 ## Topics
 

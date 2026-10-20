@@ -1,7 +1,16 @@
----
-title: "Metropolitan governance & service delivery approaches"
-date: 2026-11-24
----
+```{r}
+#| label: metadata-block
+#| echo: false
+#| include: true
+#| error: false
+schedule <- readr::read_csv("../files/schedule.csv", show_col_types = F) |>
+  dplyr::filter(module_num == "06")
+
+quarto::write_yaml_metadata_block(
+  title = schedule$module_title,
+  date = format(schedule$module_date, "%B %d, %Y")
+)
+```
 
 ## Topics
 
