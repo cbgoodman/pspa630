@@ -1,0 +1,15 @@
+{
+  "hash": "fb4c5e779acf22cf822250fbe473feb9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n---\ntitle: Putting it all together\ndate: December 08, 2026\n---\n\n## Topics\n\n-   Where are cities and metropolitan areas headed?\n\n## Readings\n\n- Chapter 12 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

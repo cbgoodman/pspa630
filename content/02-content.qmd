@@ -1,6 +1,7 @@
 
 ```{r}
 #| label: metadata-block
+#| output: asis
 #| echo: false
 #| include: true
 #| error: false

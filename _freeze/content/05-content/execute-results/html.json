@@ -1,0 +1,15 @@
+{
+  "hash": "9b46e9a303a41c4b7bdde46ea69502e8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n\n::: {.cell}\n::: {.cell-output-display}\n---\ntitle: External influences on local government\ndate: November 17, 2026\n---\n\n:::\n:::\n\n\n## Topics\n\n-   Elections\n-   Urban sprawl\n-   Population growth\n-   Climate change/sustainability\n\n## Readings\n\n- Warshaw, Christopher. “Local Elections and Representation in the United States.” [@warshaw2019]\n- Nechyba, Thomas J., and Randall P. Walsh. “Urban Sprawl.” [@nechyba2004]\n- Galster, George. “Why Shrinking Cities Are Not Mirror Images of Growing Cities: A Research Agenda of Six Testable Propositions.” [@galster2019]\n- Deslatte, Aaron, Michael D. Siciliano, and Rachel M. Krause. “Local Government Managers Are on the Frontlines of Climate Change: Are They Ready?” [@deslatte2023]",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

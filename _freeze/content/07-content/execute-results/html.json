@@ -1,0 +1,15 @@
+{
+  "hash": "5ed1614d74791232fd13bf093d6a4812",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n\n::: {.cell}\n::: {.cell-output-display}\n---\ntitle: Community governance at a micro scale\ndate: December 01, 2026\n---\n\n:::\n:::\n\n\n## Topics\n\n-   Local government consolidation\n-   Public participation\n-   Appointed volunteers in local government\n-   Homeowners associations\n\n## Readings\n\n- Leland, Suzanne, and Kurt Thurmaier. “Political and Functional Local Government Consolidation: The Challenges for Core Public Administration Values and Regional Reform.” [@leland2014]\n- Einstein, Katherine Levine, Maxwell Palmer, and David M. Glick. “Who Participates in Local Government? Evidence from Meeting Minutes.” [@einstein2019]\n- Dougherty, George W., and Jennifer Easton. “Appointed Public Volunteer Boards: Exploring the Basics of Citizen Participation Through Boards and Commissions.” [@dougherty2011]\n- McCabe, Barbara Coyle. “Homeowners Associations as Private Governments: What We Know, What We Don’t Know, and Why It Matters.” [@mccabe2011]",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
