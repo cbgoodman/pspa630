@@ -1,9 +1,11 @@
 {
-  "hash": "7952d6438fa7b252fd07b12ca2a17dd7",
+  "hash": "7542321ad5702b733a0d575a463d3537",
   "result": {
     "engine": "knitr",
-    "markdown": "\n\n::: {.cell}\n::: {.cell-output-display}\n---\ntitle: Metropolitan governance & service delivery approaches\ndate: November 24, 2026\n---\n\n:::\n:::\n\n\n## Topics\n\n-   Contracting out\n-   Shared services\n-   Collaboration\n\n## Readings\n\n-   Bel, Germà, and Mildred E. Warner. “Inter-Municipal Cooperation and Costs: Expectations and Evidence.” [@bel2015]\n-   Warner, Mildred. “Municipal Size, Resources, and Efficiency: Theoretical Bases for Shared Services and Consolidation.” [@warner2015]\n-   Aldag, Austin M., and Mildred Warner. “Cooperation, Not Cost Savings: Explaining Duration of Shared Service Agreements.” [@aldag2018]\n-   Bel, Germà, and Marianna Sebő. “Does Inter-Municipal Cooperation Really Reduce Delivery Costs? An Empirical Evaluation of the Role of Scale Economies, Transaction Costs, and Governance Arrangements.” [@bel2021]\n-   Kim, Serena Y., *et al*. “Updating the Institutional Collective Action Framework.” [@kim2022]",
-    "supporting": [],
+    "markdown": "\n---\ntitle: Metropolitan governance & service delivery approaches\ndate: November 24, 2026\n---\n\n## Topics\n\n-   Contracting out\n-   Shared services\n-   Collaboration\n\n## Readings\n\n-   Bel, Germà, and Mildred E. Warner. “Inter-Municipal Cooperation and Costs: Expectations and Evidence.” [@bel2015]\n-   Warner, Mildred. “Municipal Size, Resources, and Efficiency: Theoretical Bases for Shared Services and Consolidation.” [@warner2015]\n-   Aldag, Austin M., and Mildred Warner. “Cooperation, Not Cost Savings: Explaining Duration of Shared Service Agreements.” [@aldag2018]\n-   Bel, Germà, and Marianna Sebő. “Does Inter-Municipal Cooperation Really Reduce Delivery Costs? An Empirical Evaluation of the Role of Scale Economies, Transaction Costs, and Governance Arrangements.” [@bel2021]\n-   Kim, Serena Y., *et al*. “Updating the Institutional Collective Action Framework.” [@kim2022]",
+    "supporting": [
+      "06-content_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

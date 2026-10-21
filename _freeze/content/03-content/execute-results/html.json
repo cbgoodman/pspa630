@@ -1,9 +1,11 @@
 {
-  "hash": "76043f1ba10ed8ba6825ca6db46893f1",
+  "hash": "df82a9200bd5b54fbb167a82f1b00e82",
   "result": {
     "engine": "knitr",
-    "markdown": "\n\n::: {.cell}\n::: {.cell-output-display}\n---\ntitle: Metropolitan & regional governance\ndate: November 03, 2026\n---\n\n:::\n:::\n\n\n## Topics\n\n-   Regionalism, broadly\n-   Councils of Governments (COGs)/Metropolitan Planning Organizations (MPOs)\n-   Regional Intergovernmental Organizations (RIGOs)\n-   Informal regionalism\n\n## Readings\n\n- Chapters 6-10 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]\n- Howell-Moroney, Michael. “The Tiebout Hypothesis 50 Years Later: Lessons and Lingering Challenges for Metropolitan Governance in the 21st Century.” [@howell-moroney2008]\n- Rickabaugh, Jay. “Regionalism with and Without Metropolitanism: Governance Structures of Rural and Non-Rural Regional Intergovernmental Organizations.” [@rickabaugh2021]",
-    "supporting": [],
+    "markdown": "\n---\ntitle: Metropolitan & regional governance\ndate: November 03, 2026\n---\n\n## Topics\n\n-   Regionalism, broadly\n-   Councils of Governments (COGs)/Metropolitan Planning Organizations (MPOs)\n-   Regional Intergovernmental Organizations (RIGOs)\n-   Informal regionalism\n\n## Readings\n\n- Chapters 6-10 in *Governing the Metropolitan Region: America’s New Frontier* [@miller2014]\n- Howell-Moroney, Michael. “The Tiebout Hypothesis 50 Years Later: Lessons and Lingering Challenges for Metropolitan Governance in the 21st Century.” [@howell-moroney2008]\n- Rickabaugh, Jay. “Regionalism with and Without Metropolitanism: Governance Structures of Rural and Non-Rural Regional Intergovernmental Organizations.” [@rickabaugh2021]",
+    "supporting": [
+      "03-content_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

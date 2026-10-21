@@ -3,8 +3,6 @@
 #| label: metadata-block
 #| output: asis
 #| echo: false
-#| include: true
-#| error: false
 schedule <- readr::read_csv("../files/schedule.csv", show_col_types = F) |>
   dplyr::filter(module_num == "07")
 
